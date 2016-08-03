@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56EA00011CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EA00001CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests.m */; };
+		56EA000C1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EA000B1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests.m */; };
+		56EA001B1CD092410080E818 /* Singletonn.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EA001A1CD092410080E818 /* Singletonn.m */; };
+		56EA001D1CD094F80080E818 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EA001C1CD094F80080E818 /* line.png */; };
+		56EA001F1CD0950A0080E818 /* continue_btn_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EA001E1CD0950A0080E818 /* continue_btn_gray.png */; };
+		56EA00221CD096C60080E818 /* Submit_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EA00211CD096C60080E818 /* Submit_ViewController.m */; };
+		56EA00271CD097490080E818 /* TableView_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EA00261CD097490080E818 /* TableView_ViewController.m */; };
+		56EA002A1CD0A1930080E818 /* MY_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EA00291CD0A1930080E818 /* MY_TableViewCell.m */; };
+		56EAFFE81CD091D30080E818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EAFFE71CD091D30080E818 /* main.m */; };
+		56EAFFEB1CD091D30080E818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EAFFEA1CD091D30080E818 /* AppDelegate.m */; };
+		56EAFFF11CD091D30080E818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EAFFEF1CD091D30080E818 /* Main.storyboard */; };
+		56EAFFF31CD091D30080E818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56EAFFF21CD091D30080E818 /* Assets.xcassets */; };
+		56EAFFF61CD091D30080E818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EAFFF41CD091D30080E818 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56EA00081CD091D30080E818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56EAFFDB1CD091D30080E818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56EAFFE21CD091D30080E818;
+			remoteInfo = MY_Singleton_Localnoti_Gallery_actionsheet;
+		};
+		56EAFFFD1CD091D30080E818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56EAFFDB1CD091D30080E818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56EAFFE21CD091D30080E818;
+			remoteInfo = MY_Singleton_Localnoti_Gallery_actionsheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56EA00001CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MY_Singleton_Localnoti_Gallery_actionsheetTests.m; sourceTree = "<group>"; };
+		56EA00021CD091D30080E818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EA00071CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MY_Singleton_Localnoti_Gallery_actionsheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EA000B1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MY_Singleton_Localnoti_Gallery_actionsheetUITests.m; sourceTree = "<group>"; };
+		56EA000D1CD091D30080E818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EA00191CD092410080E818 /* Singletonn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singletonn.h; sourceTree = "<group>"; };
+		56EA001A1CD092410080E818 /* Singletonn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singletonn.m; sourceTree = "<group>"; };
+		56EA001C1CD094F80080E818 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		56EA001E1CD0950A0080E818 /* continue_btn_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue_btn_gray.png; sourceTree = "<group>"; };
+		56EA00201CD096C60080E818 /* Submit_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Submit_ViewController.h; sourceTree = "<group>"; };
+		56EA00211CD096C60080E818 /* Submit_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Submit_ViewController.m; sourceTree = "<group>"; };
+		56EA00251CD097490080E818 /* TableView_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView_ViewController.h; sourceTree = "<group>"; };
+		56EA00261CD097490080E818 /* TableView_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView_ViewController.m; sourceTree = "<group>"; };
+		56EA00281CD0A1930080E818 /* MY_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MY_TableViewCell.h; sourceTree = "<group>"; };
+		56EA00291CD0A1930080E818 /* MY_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MY_TableViewCell.m; sourceTree = "<group>"; };
+		56EAFFE31CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MY_Singleton_Localnoti_Gallery_actionsheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EAFFE71CD091D30080E818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56EAFFE91CD091D30080E818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56EAFFEA1CD091D30080E818 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56EAFFF01CD091D30080E818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56EAFFF21CD091D30080E818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56EAFFF51CD091D30080E818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56EAFFF71CD091D30080E818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EAFFFC1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MY_Singleton_Localnoti_Gallery_actionsheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56EA00041CD091D30080E818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAFFE01CD091D30080E818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAFFF91CD091D30080E818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56EA000A1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56EA000B1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests.m */,
+				56EA000D1CD091D30080E818 /* Info.plist */,
+			);
+			path = MY_Singleton_Localnoti_Gallery_actionsheetUITests;
+			sourceTree = "<group>";
+		};
+		56EAFFDA1CD091D30080E818 = {
+			isa = PBXGroup;
+			children = (
+				56EA00281CD0A1930080E818 /* MY_TableViewCell.h */,
+				56EA00291CD0A1930080E818 /* MY_TableViewCell.m */,
+				56EAFFE51CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheet */,
+				56EAFFFF1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests */,
+				56EA000A1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests */,
+				56EAFFE41CD091D30080E818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56EAFFE41CD091D30080E818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56EAFFE31CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheet.app */,
+				56EAFFFC1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests.xctest */,
+				56EA00071CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56EAFFE51CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheet */ = {
+			isa = PBXGroup;
+			children = (
+				56EAFFE91CD091D30080E818 /* AppDelegate.h */,
+				56EAFFEA1CD091D30080E818 /* AppDelegate.m */,
+				56EA001E1CD0950A0080E818 /* continue_btn_gray.png */,
+				56EA001C1CD094F80080E818 /* line.png */,
+				56EAFFEF1CD091D30080E818 /* Main.storyboard */,
+				56EAFFF21CD091D30080E818 /* Assets.xcassets */,
+				56EAFFF41CD091D30080E818 /* LaunchScreen.storyboard */,
+				56EAFFF71CD091D30080E818 /* Info.plist */,
+				56EAFFE61CD091D30080E818 /* Supporting Files */,
+				56EA00191CD092410080E818 /* Singletonn.h */,
+				56EA001A1CD092410080E818 /* Singletonn.m */,
+				56EA00201CD096C60080E818 /* Submit_ViewController.h */,
+				56EA00211CD096C60080E818 /* Submit_ViewController.m */,
+				56EA00251CD097490080E818 /* TableView_ViewController.h */,
+				56EA00261CD097490080E818 /* TableView_ViewController.m */,
+			);
+			path = MY_Singleton_Localnoti_Gallery_actionsheet;
+			sourceTree = "<group>";
+		};
+		56EAFFE61CD091D30080E818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56EAFFE71CD091D30080E818 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56EAFFFF1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				56EA00001CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests.m */,
+				56EA00021CD091D30080E818 /* Info.plist */,
+			);
+			path = MY_Singleton_Localnoti_Gallery_actionsheetTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56EA00061CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EA00161CD091D30080E818 /* Build configuration list for PBXNativeTarget "MY_Singleton_Localnoti_Gallery_actionsheetUITests" */;
+			buildPhases = (
+				56EA00031CD091D30080E818 /* Sources */,
+				56EA00041CD091D30080E818 /* Frameworks */,
+				56EA00051CD091D30080E818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56EA00091CD091D30080E818 /* PBXTargetDependency */,
+			);
+			name = MY_Singleton_Localnoti_Gallery_actionsheetUITests;
+			productName = MY_Singleton_Localnoti_Gallery_actionsheetUITests;
+			productReference = 56EA00071CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		56EAFFE21CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EA00101CD091D30080E818 /* Build configuration list for PBXNativeTarget "MY_Singleton_Localnoti_Gallery_actionsheet" */;
+			buildPhases = (
+				56EAFFDF1CD091D30080E818 /* Sources */,
+				56EAFFE01CD091D30080E818 /* Frameworks */,
+				56EAFFE11CD091D30080E818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MY_Singleton_Localnoti_Gallery_actionsheet;
+			productName = MY_Singleton_Localnoti_Gallery_actionsheet;
+			productReference = 56EAFFE31CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56EAFFFB1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EA00131CD091D30080E818 /* Build configuration list for PBXNativeTarget "MY_Singleton_Localnoti_Gallery_actionsheetTests" */;
+			buildPhases = (
+				56EAFFF81CD091D30080E818 /* Sources */,
+				56EAFFF91CD091D30080E818 /* Frameworks */,
+				56EAFFFA1CD091D30080E818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56EAFFFE1CD091D30080E818 /* PBXTargetDependency */,
+			);
+			name = MY_Singleton_Localnoti_Gallery_actionsheetTests;
+			productName = MY_Singleton_Localnoti_Gallery_actionsheetTests;
+			productReference = 56EAFFFC1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56EAFFDB1CD091D30080E818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.ronak.zaptech;
+				TargetAttributes = {
+					56EA00061CD091D30080E818 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 56EAFFE21CD091D30080E818;
+					};
+					56EAFFE21CD091D30080E818 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					56EAFFFB1CD091D30080E818 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 56EAFFE21CD091D30080E818;
+					};
+				};
+			};
+			buildConfigurationList = 56EAFFDE1CD091D30080E818 /* Build configuration list for PBXProject "MY_Singleton_Localnoti_Gallery_actionsheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56EAFFDA1CD091D30080E818;
+			productRefGroup = 56EAFFE41CD091D30080E818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56EAFFE21CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheet */,
+				56EAFFFB1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests */,
+				56EA00061CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56EA00051CD091D30080E818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAFFE11CD091D30080E818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EAFFF61CD091D30080E818 /* LaunchScreen.storyboard in Resources */,
+				56EA001F1CD0950A0080E818 /* continue_btn_gray.png in Resources */,
+				56EAFFF31CD091D30080E818 /* Assets.xcassets in Resources */,
+				56EAFFF11CD091D30080E818 /* Main.storyboard in Resources */,
+				56EA001D1CD094F80080E818 /* line.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAFFFA1CD091D30080E818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56EA00031CD091D30080E818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EA000C1CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAFFDF1CD091D30080E818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EA001B1CD092410080E818 /* Singletonn.m in Sources */,
+				56EA00271CD097490080E818 /* TableView_ViewController.m in Sources */,
+				56EAFFEB1CD091D30080E818 /* AppDelegate.m in Sources */,
+				56EA002A1CD0A1930080E818 /* MY_TableViewCell.m in Sources */,
+				56EAFFE81CD091D30080E818 /* main.m in Sources */,
+				56EA00221CD096C60080E818 /* Submit_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAFFF81CD091D30080E818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EA00011CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56EA00091CD091D30080E818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56EAFFE21CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheet */;
+			targetProxy = 56EA00081CD091D30080E818 /* PBXContainerItemProxy */;
+		};
+		56EAFFFE1CD091D30080E818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56EAFFE21CD091D30080E818 /* MY_Singleton_Localnoti_Gallery_actionsheet */;
+			targetProxy = 56EAFFFD1CD091D30080E818 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56EAFFEF1CD091D30080E818 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EAFFF01CD091D30080E818 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56EAFFF41CD091D30080E818 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EAFFF51CD091D30080E818 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56EA000E1CD091D30080E818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56EA000F1CD091D30080E818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56EA00111CD091D30080E818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MY_Singleton_Localnoti_Gallery_actionsheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronak.zaptech.MY-Singleton-Localnoti-Gallery-actionsheet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56EA00121CD091D30080E818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MY_Singleton_Localnoti_Gallery_actionsheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronak.zaptech.MY-Singleton-Localnoti-Gallery-actionsheet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		56EA00141CD091D30080E818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MY_Singleton_Localnoti_Gallery_actionsheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronak.zaptech.MY-Singleton-Localnoti-Gallery-actionsheetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MY_Singleton_Localnoti_Gallery_actionsheet.app/MY_Singleton_Localnoti_Gallery_actionsheet";
+			};
+			name = Debug;
+		};
+		56EA00151CD091D30080E818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MY_Singleton_Localnoti_Gallery_actionsheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronak.zaptech.MY-Singleton-Localnoti-Gallery-actionsheetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MY_Singleton_Localnoti_Gallery_actionsheet.app/MY_Singleton_Localnoti_Gallery_actionsheet";
+			};
+			name = Release;
+		};
+		56EA00171CD091D30080E818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MY_Singleton_Localnoti_Gallery_actionsheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronak.zaptech.MY-Singleton-Localnoti-Gallery-actionsheetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MY_Singleton_Localnoti_Gallery_actionsheet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		56EA00181CD091D30080E818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MY_Singleton_Localnoti_Gallery_actionsheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronak.zaptech.MY-Singleton-Localnoti-Gallery-actionsheetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MY_Singleton_Localnoti_Gallery_actionsheet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56EA00101CD091D30080E818 /* Build configuration list for PBXNativeTarget "MY_Singleton_Localnoti_Gallery_actionsheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EA00111CD091D30080E818 /* Debug */,
+				56EA00121CD091D30080E818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56EA00131CD091D30080E818 /* Build configuration list for PBXNativeTarget "MY_Singleton_Localnoti_Gallery_actionsheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EA00141CD091D30080E818 /* Debug */,
+				56EA00151CD091D30080E818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56EA00161CD091D30080E818 /* Build configuration list for PBXNativeTarget "MY_Singleton_Localnoti_Gallery_actionsheetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EA00171CD091D30080E818 /* Debug */,
+				56EA00181CD091D30080E818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56EAFFDE1CD091D30080E818 /* Build configuration list for PBXProject "MY_Singleton_Localnoti_Gallery_actionsheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EA000E1CD091D30080E818 /* Debug */,
+				56EA000F1CD091D30080E818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56EAFFDB1CD091D30080E818 /* Project object */;
+}
